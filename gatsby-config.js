@@ -9,5 +9,14 @@ module.exports = {
     title: "Gatsby Bootcamp!",
     author: "Asif Sha",
   },
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+  ],
 }
