@@ -1,12 +1,10 @@
 import React from "react"
 
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const ContactPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Contact Us</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
@@ -23,8 +21,7 @@ const ContactPage = () => {
           @ashrftvm
         </a>
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
