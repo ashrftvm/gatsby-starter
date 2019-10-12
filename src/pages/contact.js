@@ -1,8 +1,12 @@
 import React from "react"
 
+import Footer from "../components/footer"
+import Header from "../components/header"
+
 const ContactPage = () => {
   return (
     <div>
+      <Header />
       <h1>Contact Us</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
@@ -19,6 +23,7 @@ const ContactPage = () => {
           @ashrftvm
         </a>
       </p>
+      <Footer />
     </div>
   )
 }
