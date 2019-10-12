@@ -9,6 +9,16 @@ const ContactPage = () => {
         quia ullam possimus enim odio laboriosam tempore sint aspernatur atque
         maxime!
       </p>
+      <p>
+        Contact me at{" "}
+        <a
+          href="https://twitter.com/ashrftvm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @ashrftvm
+        </a>
+      </p>
     </div>
   )
 }

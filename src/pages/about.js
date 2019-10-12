@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const AboutPage = () => {
   return (
@@ -8,6 +9,10 @@ const AboutPage = () => {
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
         quia ullam possimus enim odio laboriosam tempore sint aspernatur atque
         maxime!
+      </p>
+      <p>
+        Say Hi!
+        <Link to="/contact">Contact Me</Link>
       </p>
     </div>
   )
